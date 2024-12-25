@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+/* General Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders between cells */
+}
+
+th, td {
+  padding: 8px; /* Add padding inside cells */
+  border: 1px solid #ccc; /* Border color for the cells */
+  border-radius: 5px; /* Round the corners of the cells */
+  text-align: left; /* Align text to the left */
+}
+
+/* Alternate row background colors */
+tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Light grey for odd rows */
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff; /* White for even rows */
+}
+
+/* Header styling */
+th {
+  font-weight: bold; /* Make headers bold */
+  background-color: #ddd; /* Light grey background for headers */
+}
